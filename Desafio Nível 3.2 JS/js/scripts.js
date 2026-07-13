@@ -10,7 +10,7 @@ const umidade = document.querySelector("#umidade");
 const descricao = document.querySelector("#descricao");
 const vento = document.querySelector("#vento");
 
-const chave = "586b143a19fd4831bf9cb10cbb00dee7";
+const chave = "ESCONDIDO";
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
