@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', Helvetica, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #6C63FF 0%, #48CAE4 100%);
+  min-height: 100vh;
+}
+
+.main-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#climate-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  min-height: 500px;
+  min-width: 420px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+}
+
+#form-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+
+#form-inputs input {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+#form-inputs input::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#form-inputs button {
+  background: rgba(255, 255, 255, 0.9);
+  color: #6C63FF;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#form-inputs button:hover {
+  background: #fff;
+}
+
+#climate-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  color: #fff;
+}
+
+#cidade {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#descricao {
+  font-size: 14px;
+  opacity: 0.85;
+  text-transform: capitalize;
+}
+
+#temperatura {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 8px 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 11px;
+  opacity: 0.75;
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hide {
+  visibility: hidden;
+}

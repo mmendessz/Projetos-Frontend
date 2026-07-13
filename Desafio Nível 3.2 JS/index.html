@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="climate-box">
+        <div id="form-box">
+          <form id="form-inputs">
+            <input
+              type="text"
+              id="city"
+              required
+              placeholder="Digite uma cidade..."
+            />
+            <button type="submit">Procurar</button>
+          </form>
+        </div>
+        <div id="climate-info" class="hide">
+          <h2 id="cidade">Joinville</h2>
+          <p id="descricao">Céu aberto</p>
+          <p id="temperatura">18°C</p>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-label">Sensação</div>
+              <div class="stat-value" id="sensacao">16°C</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Umidade</div>
+              <div class="stat-value" id="umidade">80%</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">Vento</div>
+              <div class="stat-value" id="vento">0.50km/h</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
