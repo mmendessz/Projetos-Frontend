@@ -1,5 +1,4 @@
 # Front-End Projects
-
 Repositório destinado ao armazenamento de projetos, desafios e exercícios desenvolvidos durante minha jornada de aprendizado em Front-End.
 
 A ideia deste repositório é acompanhar minha evolução prática, registrando desde os primeiros conceitos de HTML, CSS e JavaScript até projetos mais completos utilizando novas tecnologias e ferramentas.
@@ -8,7 +7,6 @@ A ideia deste repositório é acompanhar minha evolução prática, registrando 
 Artur Mendes Israel
 
 ## Objetivo
-
 Praticar e consolidar conhecimentos de desenvolvimento Front-End através da criação de projetos independentes, explorando:
 
 - Estruturação de páginas com HTML;
@@ -20,7 +18,6 @@ Praticar e consolidar conhecimentos de desenvolvimento Front-End através da cri
 - Boas práticas de desenvolvimento.
 
 ## Tecnologias estudadas
-
 - HTML5
 - CSS3
 - JavaScript
@@ -29,5 +26,4 @@ Praticar e consolidar conhecimentos de desenvolvimento Front-End através da cri
 *(Novas tecnologias serão adicionadas conforme o avanço dos estudos.)*
 
 ## Estrutura do repositório
-
 Os projetos estão separados por pastas, organizados conforme foram desenvolvidos:
