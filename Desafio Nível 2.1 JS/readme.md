@@ -1,7 +1,7 @@
 # To-Do List
-
-# Mostrar quantidade de cliques nos botões 
-# Público-alvo: Junior
+- Mostrar quantidade de cliques nos botões
+ 
+## Público-alvo: Junior
 
 ## Fluxo: 
 - eventListener que chama a função addTarefa(),
