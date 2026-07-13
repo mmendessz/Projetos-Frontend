@@ -1,6 +1,6 @@
 # Contador de Cliques
 - Mostrar quantidade de cliques nos botões
-# Público-alvo: Iniciantes
+## Público-alvo: Iniciantes
 
 ## Fluxo: 
 - contador inicializado em 0,
