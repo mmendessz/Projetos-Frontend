@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(50, 50, 50);
+  color: #333;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#counter-box {
+  background-color: rgb(134, 134, 134);
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#counter-box h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+#clicks {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 40px;
+  max-width: 130px;
+  margin: 0 auto; /* obs: centraliza a caixa branca dentro do counter-box */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#click-box {
+  min-height: 55px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#buttons button {
+  border-radius: 5px;
+  border: none;
+}
+
+#buttons #add {
+  font-size: 23px;
+  padding: 10px;
+  background-color: #99c999;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#buttons #add:hover {
+  background-color: #66d166;
+}
+
+#buttons #sub {
+  font-size: 23px;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #c99999;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#buttons #sub:hover {
+  background-color: #cc5858;
+}
+
+#reset {
+  font-size: 23px;
+  min-width: 100px;
+  background-color: #606060;
+  transition: 0.5s;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#reset:hover {
+  background-color: #ffffff;
+}
+
+.hide {
+  visibility: hidden;
+}
